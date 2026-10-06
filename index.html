@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leo Studio</title>
+<meta name="description" content="Leo Studio is the private desktop app that the creator of Leo's Time Machine uses to upload the channel's own videos.">
+<style>
+:root{--ink:#1d2733;--muted:#5a6573;--accent:#d9661f;--link:#b14f12;--bg:#fffaf2;--card:#ffffff;--line:#ecdfcb;--code:#f4eadb}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;overflow-wrap:break-word}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{padding:28px 0 0;border-bottom:1px solid var(--line)}
+.brand{margin:0;font-size:28px;font-weight:800;letter-spacing:-.4px}
+.brand a{color:var(--ink);text-decoration:none}
+.brand span{color:var(--accent)}
+nav{display:flex;flex-wrap:wrap;gap:6px 20px;margin:6px 0 14px;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a[aria-current=page]{color:var(--ink);font-weight:650}
+main{padding:8px 0 28px}
+h1{font-size:28px;line-height:1.25;margin:28px 0 6px;letter-spacing:-.3px}
+h2{font-size:19px;margin:30px 0 4px}
+.lead{font-size:19px;color:var(--muted);margin:6px 0 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 22px;margin:14px 0}
+ul{padding-left:22px}
+li{margin:6px 0}
+code{background:var(--code);border-radius:6px;padding:1px 6px;font-size:15px}
+a{color:var(--link)}
+footer{border-top:1px solid var(--line);padding:16px 0 40px;font-size:14px;color:var(--muted)}
+footer ul{list-style:none;padding:0;margin:0 0 8px;display:flex;flex-wrap:wrap;gap:4px 18px}
+footer li{margin:0}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <p class="brand"><a href="./">Leo <span>Studio</span></a></p>
+  <nav aria-label="Site">
+    <a href="./" aria-current="page">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </nav>
+</div></header>
+
+<main><div class="wrap">
+  <h1>The production tool behind Leo's Time Machine</h1>
+  <p class="lead">Leo Studio is a private desktop app for macOS. Its only user is the creator of the YouTube channel <a href="https://www.youtube.com/@LeosTimeMachine">Leo's Time Machine</a>, an educational history channel for children aged 4–8.</p>
+
+  <h2>What Leo Studio does</h2>
+  <p>Every week the creator makes new episodes and Shorts about one period of history. Leo Studio helps put each video together and then uploads it to the creator's own channel, with its title, description, tags, custom thumbnail, “made for kids” setting and scheduled publish time.</p>
+  <p>Leo Studio is not sold, distributed or offered to anyone else.</p>
+
+  <h2>How Leo Studio uses your Google Account</h2>
+  <div class="card">
+    <p>Leo Studio uses YouTube API Services. When the channel owner connects the channel, Leo Studio asks Google for two permissions:</p>
+    <ul>
+      <li><strong>Upload videos</strong> (<code>youtube.upload</code>): to upload the channel's own videos and set their title, description, tags, thumbnail, “made for kids” setting and publish time.</li>
+      <li><strong>View the YouTube account</strong> (<code>youtube.readonly</code>): to show which channel is connected and to check that each upload finished and is scheduled.</li>
+    </ul>
+    <p>Leo Studio does not read, store or share any other Google data, and it never accesses anyone else's channel.</p>
+  </div>
+
+  <h2>Your data stays on your computer</h2>
+  <p>The sign-in token is saved only on the owner's Mac. Leo Studio has no servers, no user accounts, no ads, no cookies and no analytics. Access can be removed at any time from the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>.</p>
+  <p>Details: <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:leoviaggianeltempo@gmail.com">leoviaggianeltempo@gmail.com</a></p>
+</div></main>
+
+<footer><div class="wrap">
+  <ul>
+    <li><a href="privacy.html">Privacy Policy</a></li>
+    <li><a href="terms.html">Terms of Service</a></li>
+    <li><a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a></li>
+    <li><a href="http://www.google.com/policies/privacy">Google Privacy Policy</a></li>
+    <li><a href="https://security.google.com/settings/security/permissions">Revoke access</a></li>
+  </ul>
+  <p>Leo Studio uses YouTube API Services. YouTube is a trademark of Google LLC.</p>
+</div></footer>
+</body>
+</html>
